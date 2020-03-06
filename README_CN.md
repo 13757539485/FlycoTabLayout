@@ -87,6 +87,7 @@ dependencies{
 | tl_indicator_style | enum |设置显示器为常规(NORMAL)或三角形(TRIANGLE)或背景色块(BLOCK)
 | tl_underline_color | color |设置下划线颜色
 | tl_underline_height | dimension |设置下划线高度
+| tl_indicator_padding | dimension |设置下划线BOLCK模式时色块与文字的左右padding值
 | tl_underline_gravity | enum |设置下划线上方(TOP)还是下方(BOTTOM)
 | tl_divider_color | color |设置分割线颜色
 | tl_divider_width | dimension |设置分割线宽度
@@ -95,6 +96,7 @@ dependencies{
 | tl_tab_space_equal |boolean| 设置tab大小等分
 | tl_tab_width |dimension| 设置tab固定大小
 | tl_textsize |dimension| 设置字体大小
+| tl_textSelectsize |dimension| 设置选中字体大小
 | tl_textSelectColor |color| 设置字体选中颜色
 | tl_textUnselectColor |color| 设置字体未选中颜色
 | tl_textBold |boolean| 设置字体加粗
