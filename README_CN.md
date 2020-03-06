@@ -46,30 +46,10 @@
 
  > v2.0.2(2016-04-23)
    - 删除了对NineOldAnimation库依赖(仅支持3.0+)
+   
+## 依赖
 
-## Gradle
-
-```groovy
-dependencies{
-    compile 'com.android.support:support-v4:23.1.1'
-    compile 'com.nineoldandroids:library:2.4.0'
-    compile 'com.flyco.roundview:FlycoRoundView_Lib:1.1.2@aar'
-    compile 'com.flyco.tablayout:FlycoTabLayout_Lib:1.5.0@aar'
-}
-
-After v2.0.0(support 2.2+)
-dependencies{
-    compile 'com.android.support:support-v4:23.1.1'
-    compile 'com.nineoldandroids:library:2.4.0'
-    compile 'com.flyco.tablayout:FlycoTabLayout_Lib:2.0.0@aar'
-}
-
-After v2.0.2(support 3.0+)
-dependencies{
-    compile 'com.android.support:support-v4:23.1.1'
-    compile 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
-}
-```
+需要手动打包成aar依赖
 
 ## Attributes
 
