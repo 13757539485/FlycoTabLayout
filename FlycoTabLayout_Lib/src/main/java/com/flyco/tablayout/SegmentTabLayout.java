@@ -252,6 +252,7 @@ public class SegmentTabLayout extends FrameLayout implements ValueAnimator.Anima
             View tabView = mTabsContainer.getChildAt(i);
             final boolean isSelect = i == position;
             TextView tab_title = (TextView) tabView.findViewById(R.id.tv_tab_title);
+            tab_title.setSelected(isSelect);
             tab_title.setTextColor(isSelect ? mTextSelectColor : mTextUnselectColor);
             tab_title.setTextSize(TypedValue.COMPLEX_UNIT_PX, isSelect ? mTextSelectSize : mTextSize);
             if (mTextBold == TEXT_BOLD_WHEN_SELECT) {

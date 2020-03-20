@@ -18,6 +18,8 @@
             android:id="@+id/tv_tab_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
             android:singleLine="true"/>
     </LinearLayout>
 
